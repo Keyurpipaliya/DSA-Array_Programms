@@ -28,12 +28,13 @@ int main() {
     // find element position
 
     for (int i = num + 1; i<=pos; i++) {
-        cout<<"Enter is Element Position :";
-        cin>>value;
+        cout<<"Enter is Element Position :"<<num <<":";
+        cin>>position;
     }
 
     //  print element position
-    cout<<"Enter is Elements of Position :";
+    cout<<"Enter is Elements of Position :"<<position<<":";
+    cin>>position;
 
     return 0;
     
