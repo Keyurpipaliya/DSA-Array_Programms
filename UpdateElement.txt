@@ -1,0 +1,27 @@
+#include <iostream>
+
+int main() {
+    // 1. Declare and initialize a built-in array
+    int numbers[] = {10, 20, 30, 40, 50};
+    int size = sizeof(numbers) / sizeof(numbers[0]);
+
+    // 2. Define the index and the new value
+    int index_to_update = 1; // Index 1 is the second element (value 20)
+    int new_value = 88;
+
+    // 3. Update the element
+    if (index_to_update >= 0 && index_to_update < size) {
+        numbers[index_to_update] = new_value;
+
+        // 4. Verify the update
+        std::cout << "Array after update: ";
+        for (int i = 0; i < size; ++i) {
+            std::cout << numbers[i] << " ";
+        }
+        std::cout << std::endl; // Output: Array after update: 10 88 30 40 50
+    } else {
+        std::cout << "Invalid index!" << std::endl;
+    }
+
+    return 0;
+}

@@ -1,0 +1,34 @@
+// Write an programm of insert an element at specific position 
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    
+    int arr[100] = {10, 20, 30, 40, 50};
+    int n = 5;
+    
+    // Element to insert
+
+    int element = 25;
+    int position = 3;
+    
+    if(position < 1 || position > n + 1) {
+        cout<<"Enter is Invalid Position :"<<endl;
+    }
+    
+    // Print after for Loops is Insert Array 
+    for(int i = n; i > index; i--) {
+        arr[i] = arr[i - 1]; 
+    }
+    
+    arr[index] = element;
+    
+    // Print after Insert Array
+    for(int i = 0; i < n; i++) {
+        cout<<arr[i]<<" ";
+    }
+    cout<<endl;
+   
+    return 0;
+}
