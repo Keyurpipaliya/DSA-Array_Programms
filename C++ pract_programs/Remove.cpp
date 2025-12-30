@@ -22,8 +22,8 @@ int removeDuplicate(int arr[], int n)
 
 
 int main() {
-    int arr[] = {1, 2, 2, 3, 4, 4, 4, 5, 5}; // Interger of Array Elements
-    int n = 9; // Sizes of array
+    int arr[] = {1, 2, 2, 3, 4, 4, 4, 5, 5}; // Integer of Array Elements
+    int n = 9; // Sizes of array 
 
     int n = sizeof(arr) / sizeof(arr[0]); 
 
