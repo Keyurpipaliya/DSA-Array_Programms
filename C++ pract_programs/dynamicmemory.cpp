@@ -1,4 +1,6 @@
+// Write an program Dynamic Menory Allocation
 #include <iostream>
+#include <vector>
 
 int main() {
     int size;
@@ -28,3 +30,4 @@ int main() {
 
     return 0;
 }
+
